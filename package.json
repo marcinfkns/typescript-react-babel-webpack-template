@@ -1,0 +1,42 @@
+{
+  "private": true,
+  "name": "typescript-react-babel-webpack-template",
+  "scripts": {
+    "clear": "rm -rf node_modules build dist"
+  },
+  "devDependencies": {
+    "babel-core": "^6.3.17",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-remove-strict-mode": "0.0.2",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-preset-stage-0": "^6.3.13",
+    "chai": "^3.5.0",
+    "clean-webpack-plugin": "0.1.3",
+    "gulp": "^3.9.1",
+    "gulp-jasmine": "^2.3.0",
+    "html-webpack-plugin": "^2.19.0",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-chrome-launcher": "^1.0.1",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-phantomjs2-launcher": "^0.5.0",
+    "karma-webpack": "^1.7.0",
+    "phantomjs-prebuilt": "^2.1.7",
+    "ts-loader": "^2.0.0",
+    "typescript": "^2.1.4",
+    "webpack": "1.12.2",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0",
+  
+    "@types/jasmine": "2.2.29",
+    "@types/react": "0.14.57",
+    "@types/react-dom": "0.14.22"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
