@@ -20,6 +20,9 @@ Or
 
 Run ```gulp dev``` and direct your browser to http://localhost:8081/index.html or http://localhost:8081/tests.html
 
+![screenshot](app-index-page.png)
+
 ## Debugging
 The original source files (EC6 / Typescript / React-Typescript) should be displayed thanks to source mapping even after minification
 
+![screenshot](chrome-debugger-dist.png)
