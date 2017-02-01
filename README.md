@@ -7,11 +7,9 @@ npm run clear
 npm install
 ```
 
-```
-gulp build
-gulp dist
-gulp dev
-```
+- ```gulp build``` all source files translated and bundled
+- ```gulp dist``` as above + minification
+- ```gulp dev``` run local http server with hot reload
 
 ## Running
 After ```gulp build``` or ```gulp dist``` open the index.html (or tests.html) under the build/ or dist/ directory
