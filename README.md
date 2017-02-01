@@ -1,5 +1,5 @@
 # typescript-react-babel-webpack-template
-Simple template for using EC6, Typescript and React. The app is built with gulp and webpack in different configurations (dev, build, dist).
+Simple template for using ES6, Typescript and React. The app is built with gulp and webpack in different configurations (dev, build, dist).
 
 ## Building
 ```
@@ -23,6 +23,6 @@ Run ```gulp dev``` and direct your browser to http://localhost:8081/index.html o
 ![screenshot](app-index-page.png)
 
 ## Debugging
-The original source files (EC6 / Typescript / React-Typescript) should be displayed thanks to source mapping even after minification
+The original source files (ES6 / Typescript / React-Typescript) should be displayed thanks to source mapping even after minification
 
 ![screenshot](chrome-debugger-dist.png)
